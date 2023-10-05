@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Almacen</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boton-volver" href="./index.html"><i class="bi bi-arrow-return-left"></i> Seguir comprando </a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito active" href="./index.html"><i class="bi bi-cart-fill"></i> Carrito </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© Gonzo coder</p>
+            </footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Carrito.</h2>
+            <div class="contenedor-carrito">
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio. <i class="bi bi-emoji-frown"></i></p>
+
+                <div id="carrito-productos" class="carrito-productos disabled">
+
+                    <div class="carrito-producto">
+                        <img class="carrito-producto-imagen" src="./img/abrigos/01.jpg" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>Titulo</small>
+                            <h3>Chaqueta 01</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>Cantidad</small>
+                            <p>1</p>
+                        </div>
+                        <div class="carrito-producto-precio">
+                            <small>Precio</small>
+                            <p>$1.000</p>
+                        </div>
+                        <div class="carrito-producto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$1.000</p>
+                        </div>
+                        <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
+                    </div>
+
+                    <div class="carrito-producto ">
+                        <img class="carrito-producto-imagen" src="./img/abrigos/02.jpg" alt="">
+                        <div class="carrito-producto-titulo">
+                            <small>Titulo</small>
+                            <h3>Chaqueta 02</h3>
+                        </div>
+                        <div class="carrito-producto-cantidad">
+                            <small>Cantidad</small>
+                            <p>2</p>
+                        </div>
+                        <div class="carrito-producto-precio">
+                            <small>Precio</small>
+                            <p>$1.000</p>
+                        </div>
+                        <div class="carrito-producto-subtotal">
+                            <small>Subtotal</small>
+                            <p>$2.000</p>
+                        </div>
+                        <button class="carrito-producto-eliminar"><i class="bi bi-trash-fill"></i></button>
+                    </div>
+
+                    <div id="carrito-acciones" class="carrito-acciones disabled">
+                        <div class="carrito-acciones-izquierda">
+                            <button class="carrito-acciones-vaciar">Vaciar carrito</button>
+                        </div>
+                        <div class="carrito-acciones-derecha">
+                            <div class="carrito-acciones-total">
+                                <p>Total:</p>
+                                <p id="Total">3.000</p>
+                            </div>
+                            <button class="carrito-acciones-comprar">Comprar ahora</button>
+                        </div>
+                    </div>
+                    <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra <i class="bi bi-emoji-laughing"></i></p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="./js/carrito.js"></script>
+</body>
+</html>
