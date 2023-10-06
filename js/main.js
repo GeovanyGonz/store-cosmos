@@ -4,7 +4,7 @@ const productos = [
     {
         id: "abrigo-01",
         titulo: "Abrigo 01",
-        imagen: "../img/abrigos/01.jpg",
+        imagen: "./img/abrigos/01.jpg",
         categoria: {
             nombre: "Chaquetas",
             id: "chaquetas"
@@ -14,7 +14,7 @@ const productos = [
     {
         id: "abrigo-02",
         titulo: "Abrigo 02",
-        imagen: "../img/abrigos/02.jpg",
+        imagen: "./img/abrigos/02.jpg",
         categoria: {
             nombre: "Chaquetas",
             id: "chaquetas"
@@ -24,7 +24,7 @@ const productos = [
     {
         id: "abrigo-03",
         titulo: "Abrigo 03",
-        imagen: "../img/abrigos/03.jpg",
+        imagen: "./img/abrigos/03.jpg",
         categoria: {
             nombre: "Chaquetas",
             id: "chaquetas"
@@ -34,7 +34,7 @@ const productos = [
     {
         id: "abrigo-04",
         titulo: "Abrigo 04",
-        imagen: "../img/abrigos/04.jpg",
+        imagen: "./img/abrigos/04.jpg",
         categoria: {
             nombre: "Chaquetas",
             id: "chaquetas"
@@ -44,7 +44,7 @@ const productos = [
     {
         id: "abrigo-05",
         titulo: "Abrigo 05",
-        imagen: "../img/abrigos/05.jpg",
+        imagen: "./img/abrigos/05.jpg",
         categoria: {
             nombre: "Chaquetas",
             id: "chaquetas"
@@ -54,7 +54,7 @@ const productos = [
     {
         id: "camiseta-01",
         titulo: "Camiseta 01",
-        imagen: "../img/camisetas/01.jpg",
+        imagen: "./img/camisetas/01.jpg",
         categoria: {
             nombre: "Camisetas",
             id: "camisetas"
@@ -134,7 +134,7 @@ const productos = [
     {
         id: "pantalon-01",
         titulo:"Pantalon 01",
-        imagen: "../img/pantalones/01.jpg",
+        imagen: "./img/pantalones/01.jpg",
         categoria:{
             nombre: "Pantalones",
             id : 'pantalones'
@@ -144,7 +144,7 @@ const productos = [
     {
         id: "pantalon-02",
         titulo:"Pantalon 02",
-        imagen: "../img/pantalones/02.jpg",
+        imagen: "./img/pantalones/02.jpg",
         categoria:{
             nombre: "Pantalones",
             id : 'pantalones'
@@ -154,7 +154,7 @@ const productos = [
     {
         id: "pantalon-03",
         titulo:"Pantalon 03",
-        imagen: "../img/pantalones/03.jpg",
+        imagen: "./img/pantalones/03.jpg",
         categoria:{
             nombre: "Pantalones",
             id : 'pantalones'
@@ -164,7 +164,7 @@ const productos = [
     {
         id: "pantalon-04",
         titulo:"Pantalon 04",
-        imagen: "../img/pantalones/04.jpg",
+        imagen: "./img/pantalones/04.jpg",
         categoria:{
             nombre: "Pantalones",
             id : 'pantalones'
@@ -174,7 +174,7 @@ const productos = [
     {
         id: "pantalon-05",
         titulo:"Pantalon 05",
-        imagen: "../img/pantalones/05.jpg",
+        imagen: "./img/pantalones/05.jpg",
         categoria:{
             nombre: "Pantalones",
             id : 'pantalones'
