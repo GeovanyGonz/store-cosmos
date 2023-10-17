@@ -108,7 +108,6 @@ aside {
 .boton-menu i.bi-hand-index-thumb-fill,
 .boton-menu i.bi-hand-index-thumb {
     transform: rotateZ(90deg);
-    margin-right: 30px;
 }
 
 .bi-hand-index-thumb {
@@ -119,10 +118,6 @@ aside {
 .text-footer {
     color: gray;
     font-size: .85rem;
-}
-
-.boton-carrito {
-    margin-top: 2rem;
 }
 
 .numerito {
@@ -146,7 +141,7 @@ main {
     background-color: var(--color-white);
     margin: 1rem;
     margin-left: 0;
-    border-radius: 1rem;
+    border-radius: 2rem;
     padding: 3rem;
 }
 
@@ -227,12 +222,12 @@ main {
     background-color: var(--color-gray);
     color: var(--color-main);
     padding: .5rem;
+    padding-right: 1.5rem;
     border-radius: 1rem;
 }
 
 .carrito-producto-imagen {
     width: 4rem;
-    height: 5.5rem;
     border-radius: 1rem;
 }
 
