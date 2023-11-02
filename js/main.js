@@ -52,6 +52,36 @@ const productos = [
         precio: 1000,
     },
     {
+        id: "abrigo-06",
+        titulo: "Abrigo 06",
+        imagen: "https://http2.mlstatic.com/D_NQ_NP_951129-CBT50780035200_072022-O.webp",
+        categoria: {
+            nombre: "Chaquetas",
+            id: "chaquetas"
+        },
+        precio: 1000,
+    },
+    {
+        id: "abrigo-07",
+        titulo: "Abrigo 07",
+        imagen: "https://rtmmoda.com/wp-content/uploads/2020/11/Banner_3.jpg",
+        categoria: {
+            nombre: "Chaquetas",
+            id: "chaquetas"
+        },
+        precio: 1000,
+    },
+    {
+        id: "abrigo-08",
+        titulo: "Abrigo 08",
+        imagen: "https://http2.mlstatic.com/D_NQ_NP_600266-MCO54718783839_032023-O.webp",
+        categoria: {
+            nombre: "Chaquetas",
+            id: "chaquetas"
+        },
+        precio: 1000,
+    },
+    {
         id: "camiseta-01",
         titulo: "Camiseta 01",
         imagen: "./img/camisetas/01.jpg",
@@ -104,7 +134,7 @@ const productos = [
     {
         id: "camiseta-06",
         titulo:"Camiseta 06",
-        imagen: "./img/camisetas/06.jpg",
+        imagen: "https://www.lyh.com.co/wp-content/uploads/2022/11/4Q109146-Camiseta-para-hombre-tienda-de-ropa-LYH-moda-2.jpg",
         categoria:{
             nombre: "Camisetas",
             id : 'camisetas'
@@ -114,7 +144,7 @@ const productos = [
     {
         id: "camiseta-07",
         titulo:"Camiseta 07",
-        imagen: "./img/camisetas/07.jpg",
+        imagen: "https://m.media-amazon.com/images/I/61W9UtYj33L._AC_UL1500_.jpg",
         categoria:{
             nombre: "Camisetas",
             id : 'camisetas'
@@ -175,6 +205,76 @@ const productos = [
         id: "pantalon-05",
         titulo:"Pantalon 05",
         imagen: "./img/pantalones/05.jpg",
+        categoria:{
+            nombre: "Pantalones",
+            id : 'pantalones'
+    },
+        precio:  1000,
+    },
+    {
+        id: "pantalon-06",
+        titulo:"Pantalon 06",
+        imagen: "https://i.linio.com/p/016fcab6c422015a7f5e1e553f416d4c-product.webp",
+        categoria:{
+            nombre: "Pantalones",
+            id : 'pantalones'
+    },
+        precio:  1000,
+    },
+    {
+        id: "pantalon-07",
+        titulo:"Pantalon 07",
+        imagen: "https://http2.mlstatic.com/D_NQ_NP_722868-CBT54255595013_032023-O.webp",
+        categoria:{
+            nombre: "Pantalones",
+            id : 'pantalones'
+    },
+        precio:  1000,
+    },
+    {
+        id: "pantalon-08",
+        titulo:"Pantalon 08",
+        imagen: "https://http2.mlstatic.com/D_NQ_NP_700206-CBT54255595045_032023-O.webp",
+        categoria:{
+            nombre: "Pantalones",
+            id : 'pantalones'
+    },
+        precio:  1000,
+    },
+    {
+        id: "pantalon-09",
+        titulo:"Pantalon 09",
+        imagen: "https://http2.mlstatic.com/D_NQ_NP_694124-CBT54255595011_032023-O.webp",
+        categoria:{
+            nombre: "Pantalones",
+            id : 'pantalones'
+    },
+        precio:  1000,
+    },
+    {
+        id: "pantalon-10",
+        titulo:"Pantalon 10",
+        imagen: "https://m.media-amazon.com/images/I/71crMbYxlZL.jpg",
+        categoria:{
+            nombre: "Pantalones",
+            id : 'pantalones'
+    },
+        precio:  1000,
+    },
+    {
+        id: "pantalon-11",
+        titulo:"Pantalon 11",
+        imagen: "https://image.made-in-china.com/202f0j00vSZihNkRMacJ/Men-s-Jeans-Factory-Wholesale-Custom-Jeans-Men-s-Loose-Straight-High-Waist-Casual-Stretch-Business-Trousers-Jeans.webp",
+        categoria:{
+            nombre: "Pantalones",
+            id : 'pantalones'
+    },
+        precio:  1000,
+    },
+    {
+        id: "pantalon-12",
+        titulo:"Pantalon 12",
+        imagen: "https://http2.mlstatic.com/D_NQ_NP_715719-MCO71255215534_082023-O.webp",
         categoria:{
             nombre: "Pantalones",
             id : 'pantalones'
