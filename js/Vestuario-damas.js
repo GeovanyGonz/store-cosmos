@@ -52,7 +52,7 @@ botonesCategorias.forEach(boton => {
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
         } else {
-            tituloPrincipal.innerText = "Vestuario para hombres";
+            tituloPrincipal.innerText = "Vestuario para mujeres";
             cargarProductos(productos);
         }
         

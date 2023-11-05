@@ -31,11 +31,11 @@ function cargarProductosCarrito() {
             </div>
             <div class="carrito-producto-cantidad">
                 <small>Cantidad</small>
-                <p>${producto.cantidad}</p>
+                <p>${producto.cantidad * producto.precio}</p>
             </div>
             <div class="carrito-producto-precio">
                 <small>Precio</small>
-                <p>${producto.precio} </p>
+                <p>${producto.precio * producto.cantidad} </p>
             </div>
             <div class="carrito-producto-subtotal">
                 <small>Subtotal</small>
@@ -48,7 +48,7 @@ function cargarProductosCarrito() {
         })
 
     actualizarBotonesEliminar();
-    actualizarTotal();
+    pagoTotal();
     
     } else {
         contenedorCarritoVacio.classList.remove("disabled");
@@ -71,9 +71,9 @@ function actualizarBotonesEliminar() {
 
 function eliminarDelCarrito(e) {
     const idBoton = e.currentTarget.id;
-    const index = productosEnCarrito.findIndex(producto => producto.id === idBoton );
+    const index = productosEnCarrito.findIndex(producto => producto.id === idBoton)
 
-    productosEnCarrito.splice(index, 1);
+    productosEnCarrito.splice(index, 1)
     cargarProductosCarrito();
 
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
@@ -87,9 +87,9 @@ function vaciarCarrito() {
     cargarProductosCarrito();
 }
 
-function actualizarTotal() {
+function pagoTotal() {
     const totalCalculado = productosEnCarrito.reduce((acc, producto) => acc + (producto.precio * producto.cantidad), 0);
-    actualizarTotal.innerText = `$${totalCalculado}`;
+    Total.innerText = `$${totalCalculado}`
 }
 
 botonComprar.addEventListener("click", comprarCarrito);
