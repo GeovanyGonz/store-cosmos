@@ -1,6 +1,6 @@
 let codigo = [];
 
-fetch("/js/women.json")
+fetch("./js/women.json")
     .then(response => response.json())
     .then(data => {
         productos = data;

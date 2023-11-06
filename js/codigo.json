@@ -422,7 +422,7 @@
     {
         "id": "pantalon-06",
         "titulo":"Pantalon 06",
-        "imagen": "https://i.linio.com/p/016fcab6c422015a7f5e1e553f416d4c-product.webp",
+        "imagen": "/img/pantalones/pantalon-hombre6.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
