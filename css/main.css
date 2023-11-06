@@ -47,6 +47,18 @@ aside {
     justify-content: space-between;
 }
 
+.damas {
+    background: rgb(221, 170, 151)151, 127;
+}
+
+.mujeres {
+    background: rgb(187, 148, 155);
+}
+
+.caballeros {
+    background: rgb(192, 184, 184);
+}
+
 .logo {
     font-weight: 400;
     font-size: 1.3rem;

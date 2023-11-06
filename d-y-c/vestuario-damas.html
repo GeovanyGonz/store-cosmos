@@ -6,24 +6,26 @@
     <title>ALMACEN</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/damas.css">
 </head>
 <body>
     
     <div class="wrapper">
-        <aside>
+        <aside class="damas">
             <header>
                 <h1 class="logo">ROPA CON ESTILO Y ELEGANCIA</h1>
                 <li>
-                    <button id="todos"  class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i>TODOS LOS PRODUCTOS PARA MUJERES</button>
+                    <button id="todos"  class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i><a href="./vestuario-damas.html"> TODOS LOS PRODUCTOS PARA DAMAS</a></button>
+
+                    <button id="todos"  class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> <a href="./vestuario-caballeros.html">TODOS LOS PRODUCTOS PARA CABALLEROS</a></button>
                 </li>
-                <ul class="menu">
-                    <li><a href="./vestuario-damas.html"></a> </li>
-                    <li><a href="./vestuario-caballeros.html"></a> </li>
-                </ul>
+                <li>
+                    <button id="todos"  class="boton-menu boton-categoria active"><i class="bi bi-hand-index-thumb-fill"></i> <a href="/index.html">TODOS LOS PRODUCTOS</a></button>
+                </li>
             </header>
             <nav>
-                <ul class="menu">
+                <ul class="menu" class="vestuario">
                     
                     <li>
                         <button id="chaquetas" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Chaquetas</button>
@@ -35,7 +37,7 @@
                         <button id="pantalones" class="boton-menu boton-categoria"><i class="bi bi-hand-index-thumb"></i> Pantalones</button>
                     </li>
                     <li>
-                        <a  class="boton-menu" class="boton-carrito active" href="./carrito.html"><i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span></a>
+                        <a  class="boton-menu" class="boton-carrito active" href="../carrito.html"><i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span></a>
                     </li>
                 </ul>
             </nav>
@@ -43,12 +45,12 @@
                 <p class="texto-footer">© 2.022 Gonzo coder</p>
             </footer>
         </aside>
-        <main>
-            <h2 class="titulo-principal" id="titulo-principal">Todos los productos en esta seccion</h2>
+        <main class="mujeres">
+            <h2 class="titulo-principal" id="titulo-principal">VESTUARIO DAMAS</h2>
             <div id="contenedor-productos" class="contenedor-productos"></div>
         </main>
     </div>
-    <script src="./js/vestuario-damas.js"></script>
+    <script src="/js/vestuario-damas.js"></script>
 
 </body>
 </html>
