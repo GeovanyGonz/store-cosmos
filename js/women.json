@@ -2,7 +2,7 @@
     {
         "id": "abrigo-01",
         "titulo": "Abrigo 01",
-        "imagen": "/img2/abrigos/chaqueta-dama1.jpg",
+        "imagen": "./img2/abrigos/chaqueta-dama1.jpg",
         "categoria": {
             "nombre": "Chaquetas",
             "id": "chaquetas"
@@ -12,7 +12,7 @@
     {
         "id": "abrigo-02",
         "titulo": "Abrigo 02",
-        "imagen": "/img2/abrigos/chaqueta-dama2.jpg",
+        "imagen": "./img2/abrigos/chaqueta-dama2.jpg",
         "categoria": {
             "nombre": "Chaquetas",
             "id": "chaquetas"
@@ -22,7 +22,7 @@
     {
         "id": "abrigo-03",
         "titulo": "Abrigo 03",
-        "imagen": "/img2/abrigos/chaqueta-dama3.jpg",
+        "imagen": "./img2/abrigos/chaqueta-dama3.jpg",
         "categoria": {
             "nombre": "Chaquetas",
             "id": "chaquetas"
@@ -32,7 +32,7 @@
     {
         "id": "abrigo-04",
         "titulo": "Abrigo 04",
-        "imagen": "/img2/abrigos/chaqueta-dama4.jpg",
+        "imagen": "./img2/abrigos/chaqueta-dama4.jpg",
         "categoria": {
             "nombre": "Chaquetas",
             "id": "chaquetas"
@@ -42,7 +42,7 @@
     {
         "id": "abrigo-05",
         "titulo": "Abrigo 05",
-        "imagen": "/img2/abrigos/chaqueta-dama5.jpg",
+        "imagen": "./img2/abrigos/chaqueta-dama5.jpg",
         "categoria": {
             "nombre": "Chaquetas",
             "id": "chaquetas"
@@ -52,7 +52,7 @@
     {
         "id": "abrigo-06",
         "titulo": "Abrigo 06",
-        "imagen": "/img2/abrigos/chaqueta-dama6.jpg",
+        "imagen": "./img2/abrigos/chaqueta-dama6.jpg",
         "categoria": {
             "nombre": "Chaquetas",
             "id": "chaquetas"
@@ -62,7 +62,7 @@
     {
         "id": "abrigo-07",
         "titulo": "Abrigo 07",
-        "imagen": "/img2/abrigos/chaqueta-dama7.jpg",
+        "imagen": "./img2/abrigos/chaqueta-dama7.jpg",
         "categoria": {
             "nombre": "Chaquetas",
             "id": "chaquetas"
@@ -72,7 +72,7 @@
     {
         "id": "abrigo-08",
         "titulo": "Abrigo 08",
-        "imagen": "/img2/abrigos/chaqueta-dama8.jpg",
+        "imagen": "./img2/abrigos/chaqueta-dama8.jpg",
         "categoria": {
             "nombre": "Chaquetas",
             "id": "chaquetas"
@@ -82,7 +82,7 @@
     {
         "id": "camiseta-01",
         "titulo": "Camiseta 01",
-        "imagen": "/img2/camisetas/camiseta-mujer1.jpg",
+        "imagen": "./img2/camisetas/camiseta-mujer1.jpg",
         "categoria": {
             "nombre": "Camisetas",
             "id": "camisetas"
@@ -92,7 +92,7 @@
     {
         "id": "camiseta-02",
         "titulo":"Camiseta 02",
-        "imagen": "/img2/camisetas/camiseta-mujer2.jpg",
+        "imagen": "./img2/camisetas/camiseta-mujer2.jpg",
         "categoria":{
             "nombre": "Camisetas",
             "id" : "camisetas"
@@ -102,7 +102,7 @@
     {
         "id": "camiseta-03",
         "titulo":"Camiseta 03",
-        "imagen": "/img2/camisetas/camiseta-woman-3.jpg",
+        "imagen": "./img2/camisetas/camiseta-woman-3.jpg",
         "categoria":{
             "nombre": "Camisetas",
             "id" : "camisetas"
@@ -112,7 +112,7 @@
     {
         "id": "camiseta-04",
         "titulo":"Camiseta 04",
-        "imagen": "/img2/camisetas/camiseta-mujer4.jpg",
+        "imagen": "./img2/camisetas/camiseta-mujer4.jpg",
         "categoria":{
             "nombre": "Camisetas",
             "id" : "camisetas"
@@ -122,7 +122,7 @@
     {
         "id": "camiseta-05",
         "titulo":"Camiseta 05",
-        "imagen": "/img2/camisetas/camiseta-mujer-5.jpg",
+        "imagen": "./img2/camisetas/camiseta-mujer-5.jpg",
         "categoria":{
             "nombre": "Camisetas",
             "id" : "camisetas"
@@ -132,7 +132,7 @@
     {
         "id": "camiseta-06",
         "titulo":"Camiseta 06",
-        "imagen": "/img2/camisetas/camiseta-mujer6.jpg",
+        "imagen": "./img2/camisetas/camiseta-mujer6.jpg",
         "categoria":{
             "nombre": "Camisetas",
             "id" : "camisetas"
@@ -142,7 +142,7 @@
     {
         "id": "camiseta-07",
         "titulo":"Camiseta 07",
-        "imagen": "/img2/camisetas/camiseta-woman-7.jpg",
+        "imagen": "./img2/camisetas/camiseta-woman-7.jpg",
         "categoria":{
             "nombre": "Camisetas",
             "id" : "camisetas"
@@ -152,7 +152,7 @@
     {
         "id": "camiseta-08",
         "titulo":"Camiseta 08",
-        "imagen": "/img2/camisetas/camiseta-woman-8.jpg",
+        "imagen": "./img2/camisetas/camiseta-woman-8.jpg",
         "categoria":{
             "nombre": "Camisetas",
             "id" : "camisetas"
@@ -162,7 +162,7 @@
     {
         "id": "pantalon-01",
         "titulo":"Pantalon 01",
-        "imagen": "/img2/pantalones/pantalon-mujer1.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer1.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -172,7 +172,7 @@
     {
         "id": "pantalon-02",
         "titulo":"Pantalon 02",
-        "imagen": "/img2/pantalones/pantalon-mujer2.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer2.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -182,7 +182,7 @@
     {
         "id": "pantalon-03",
         "titulo":"Pantalon 03",
-        "imagen": "/img2/pantalones/pantalon-mujer3.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer3.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -192,7 +192,7 @@
     {
         "id": "pantalon-04",
         "titulo":"Pantalon 04",
-        "imagen": "/img2/pantalones/pantalon-mujer4.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer4.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -202,7 +202,7 @@
     {
         "id": "pantalon-05",
         "titulo":"Pantalon 05",
-        "imagen": "/img2/pantalones/pantalon-mujer-5.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer-5.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -212,7 +212,7 @@
     {
         "id": "pantalon-06",
         "titulo":"Pantalon 06",
-        "imagen": "/img2/pantalones/pantalon-mujer6.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer6.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -222,7 +222,7 @@
     {
         "id": "pantalon-07",
         "titulo":"Pantalon 07",
-        "imagen": "/img2/pantalones/pantalon-mujer-7.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer-7.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -232,7 +232,7 @@
     {
         "id": "pantalon-08",
         "titulo":"Pantalon 08",
-        "imagen": "/img2/pantalones/pantalon-mujer8.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer8.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -242,7 +242,7 @@
     {
         "id": "pantalon-09",
         "titulo":"Pantalon 09",
-        "imagen": "/img2/pantalones/pantalon-mujer9.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer9.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -252,7 +252,7 @@
     {
         "id": "pantalon-10",
         "titulo":"Pantalon 10",
-        "imagen": "/img2/pantalones/pantalon-mujer10.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer10.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -262,7 +262,7 @@
     {
         "id": "pantalon-11",
         "titulo":"Pantalon 11",
-        "imagen": "/img2/pantalones/pantalon-mujer11.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer11.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -272,7 +272,7 @@
     {
         "id": "pantalon-12",
         "titulo":"Pantalon 12",
-        "imagen": "/img2/pantalones/pantalon-mujer12.jpg",
+        "imagen": "./img2/pantalones/pantalon-mujer12.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
