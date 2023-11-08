@@ -172,7 +172,7 @@
     {
         "id": "pantalon-02",
         "titulo":"Pantalon 02",
-        "imagen": "./img2/pantalones/pantalon-mujer2.jpg",
+        "imagen": "/img2/pantalones/pantalon-mujer2.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -222,7 +222,7 @@
     {
         "id": "pantalon-07",
         "titulo":"Pantalon 07",
-        "imagen": "./img2/pantalones/pantalon-mujer-7.jpg",
+        "imagen": "/img2/pantalones/pantalon-mujer-7.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
@@ -252,7 +252,7 @@
     {
         "id": "pantalon-10",
         "titulo":"Pantalon 10",
-        "imagen": "./img2/pantalones/pantalon-mujer10.jpg",
+        "imagen": "/img2/pantalones/pantalon-mujer10.jpg",
         "categoria":{
             "nombre": "Pantalones",
             "id" : "pantalones"
