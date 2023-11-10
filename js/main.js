@@ -52,7 +52,7 @@ botonesCategorias.forEach(boton => {
             const productosBoton = productos.filter(producto => producto.categoria.id === e.currentTarget.id);
             cargarProductos(productosBoton);
         } else {
-            tituloPrincipal.innerText = "Vestuario para hombres";
+            tituloPrincipal.innerText = "Todos los productos";
             cargarProductos(productos);
         }
         
@@ -80,17 +80,22 @@ if (productosEnCarritoLS) {
 
 function agregarAlCarrito(e) {
     Toastify({
-        text: "This is a toast",
+        text: "Producto agregado",
         duration: 3000,
-        destination: "https://github.com/apvarun/toastify-js",
-        newWindow: true,
-        close: true,
+        close: false,
         gravity: "top", // `top` or `bottom`
-        position: "left", // `left`, `center` or `right`
+        position: "right", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
         style: {
-          background: "linear-gradient(to right, #00b09b, #96c93d)",
+          background: "linear-gradient rgb(96, 81, 81)",
+          borderRadius: "2rem",
+          textTransform: "uppercase",
+          fontSize: ".75rem"
         },
+        offset: {
+            x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+            y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
+          },
         onClick: function(){} // Callback after click
       }).showToast();
     const idBoton = e.currentTarget.id;

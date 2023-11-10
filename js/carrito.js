@@ -31,11 +31,11 @@ function cargarProductosCarrito() {
             </div>
             <div class="carrito-producto-cantidad">
                 <small>Cantidad</small>
-                <p>${producto.cantidad * producto.precio}</p>
+                <p>${producto.cantidad}</p>
             </div>
             <div class="carrito-producto-precio">
                 <small>Precio</small>
-                <p>${producto.precio * producto.cantidad} </p>
+                <p>${producto.precio} </p>
             </div>
             <div class="carrito-producto-subtotal">
                 <small>Subtotal</small>
@@ -70,6 +70,26 @@ function actualizarBotonesEliminar() {
 }
 
 function eliminarDelCarrito(e) {
+
+    Toastify({
+        text: "Producto eliminado",
+        duration: 3000,
+        close: false,
+        gravity: "top", // `top` or `bottom`
+        position: "right", // `left`, `center` or `right`
+        stopOnFocus: true, // Prevents dismissing of toast on hover
+        style: {
+          background: "linear-gradient rgb(96, 81, 81)",
+          borderRadius: "2rem",
+          textTransform: "uppercase",
+          fontSize: ".75rem"
+        },
+        offset: {
+            x: '1.5rem', // horizontal axis - can be a number or a string indicating unity. eg: '2em'
+            y: '1.5rem' // vertical axis - can be a number or a string indicating unity. eg: '2em'
+          },
+        onClick: function(){} // Callback after click
+      }).showToast();
     const idBoton = e.currentTarget.id;
     const index = productosEnCarrito.findIndex(producto => producto.id === idBoton)
 
@@ -81,6 +101,23 @@ function eliminarDelCarrito(e) {
 
 botonVaciar.addEventListener("click", vaciarCarrito);
 function vaciarCarrito() {
+
+    swal({
+        title: "Estas seguro'a'?",
+        text: "Ufff! ¿es en serio que quieres eliminarme?",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+          swal("Ohhh, Tus productos fueron eliminados!", {
+            icon: "success",
+          });
+        } else {
+          swal("Has elegido bien!");
+        }
+      });
 
     productosEnCarrito.length = 0;
     localStorage.setItem("productos-en-carrito", JSON.stringify(productosEnCarrito));
