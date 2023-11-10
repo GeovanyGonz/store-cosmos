@@ -380,19 +380,25 @@ main {
         color: var(--color-gray);
     }
 
-    .open-menu .close-menu{
+    .header-mobile .open-menu {
         background-color: transparent;
-        color: var(--color-gray);
+        color: var(--color-white);
         border: 0;
-        font-size: 2rem;
         cursor: pointer;
+        font-size: 50px;
+        padding: 20px;
+        margin-left: 50px;
     }
 
-    .close-menu {
+    aside .close-menu {
+        background-color: transparent;
+        border: 0;
+        color: var(--color-red);
         display: block;
         position: absolute;
         top: 1rem;
         right: 1rem;
+        font-size: 40px;
     }
 
     .carrito-producto {
@@ -415,6 +421,14 @@ main {
 @media screen and (max-width: 400px) {
     .contenedor-productos {
         grid-template-columns: 1fr;
+    }
+    .open-menu .close-menu{
+        background-color: transparent;
+        color: var(--color-gray);
+        border: 0;
+        font-size: 2rem;
+        cursor: pointer;
+        max-width: 200px;
     }
 }
 
