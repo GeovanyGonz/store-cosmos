@@ -5,14 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ALMACEN</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 
     <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">ROPA CON ESTILO Y ELEGANCIA</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
         <aside>
-            <header>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
+            <header class="clothes">
                 <h1 class="logo">ROPA CON ESTILO Y ELEGANCIA</h1>
                 <li>
                     <button id="todos"  class="boton-menu boton-categoria active"  ><i class="bi bi-hand-index-thumb-fill"></i><a href="./vestuario-damas.html"> ROPA PARA DAMAS</a></button>
@@ -47,6 +57,10 @@
             <div id="contenedor-productos" class="contenedor-productos"></div>
         </main>
     </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/main.js"></script>
+    
 </body>
 </html>
